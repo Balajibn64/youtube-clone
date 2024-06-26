@@ -16,7 +16,7 @@ const Navbar = ({ setSidebar }) => {
     <nav className='flex-div'>
       <div className='nav-left flex-div'>
         <img className='menu-icon' onClick={()=>setSidebar(prev=>prev===false?true:false)} src={menu_icon} alt='Menu Icon' />
-        <Link to='/'>
+        <Link to='/youtube-clone'>
           <img className='Logo' src={logo} alt='Logo' />
         </Link>
       </div>

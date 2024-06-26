@@ -10,15 +10,11 @@ import notification_icon from '../../assets/notification.png';
 import profile_icon from '../../assets/jack.png';
 
 const Navbar = ({ setSidebar }) => {
-  const handleSidebarToggle = () => {
-    console.log('Menu icon clicked');
-    setSidebar(prev => !prev);
-  };
 
   return (
     <nav className='flex-div'>
       <div className='nav-left flex-div'>
-        <img className='menu-icon' onClick={handleSidebarToggle} src={menu_icon} alt='Menu Icon' />
+        <img className='menu-icon' onClick={()=>setSidebar(prev=>prev===false?true:false)} src={menu_icon} alt='Menu Icon' />
         <img className='logo' src={logo} alt='Logo' />
       </div>
 

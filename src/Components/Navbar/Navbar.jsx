@@ -8,6 +8,7 @@ import upload_icon from '../../assets/upload.png';
 import more_icon from '../../assets/more.png';
 import notification_icon from '../../assets/notification.png';
 import profile_icon from '../../assets/jack.png';
+import BNLogo from '../../assets/BNLogo.ico'
 import { Link } from 'react-router-dom';
 
 const Navbar = ({ setSidebar }) => {
@@ -32,7 +33,7 @@ const Navbar = ({ setSidebar }) => {
         <img src={upload_icon} alt='Upload Icon' />
         <img src={more_icon} alt='More Icon' />
         <img src={notification_icon} alt='Notification Icon' />
-        <img src={profile_icon} className='user-icon' alt='Profile Icon' />
+        <img src={BNLogo} className='user-icon' alt='Profile Icon' />
       </div>
     </nav>
   );

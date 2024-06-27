@@ -132,4 +132,63 @@
         margin-right: 15px;
         margin-top: 15px;
     }
- }
+}
+@media (max-width: 600px) {
+    .play-video {
+      flex-basis: 100%;
+    }
+    .play-video iframe{
+        width: 100%;
+        height: 55vw;
+    }
+    .play-video h3{
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .comment img{
+        width: 25px; /* Reduced size for smaller screens */
+        margin-right: 10px; /* Adjusted margin for smaller screens */
+        border-radius: 50%; /* Maintained circular shape */
+        position: relative; /* Allows the use of top property */
+        top: 10px; /* Moves the image down by 5 pixels */
+    }
+    
+    
+    .comment h3{
+        font-size: 12px; /* Reduced size for smaller screens */
+        margin-bottom: 2px;
+    }
+    .comment h3 span{
+        font-size: 10px; /* Reduced size for smaller screens */
+    }
+    .comment-action img{
+        width: 15px; /* Reduced size for smaller screens */
+        margin-right: 5px;
+    }
+    .comment-action span{
+        margin-right: 15px; /* Adjusted spacing for smaller screens */
+        font-size: 12px; /* Reduced size for smaller screens */
+        position: relative; /* Allows the use of top property */
+        top: 10px;
+    }
+    .publisher img{
+        width: 30px; /* Reduced size for smaller screens */
+        margin-right: 10px;
+    }
+    .publisher div p{
+        font-size: 16px; /* Reduced size for smaller screens */
+    }
+    .publisher div span{
+        font-size: 12px; /* Reduced size for smaller screens */
+    }
+    .vid-description {
+        padding-left: 10px; /* Reduced padding for smaller screens */
+    }
+    .vid-description p{
+        font-size: 12px; /* Reduced size for smaller screens */
+    }
+    .vid-description h4{
+        font-size: 12px; /* Reduced size for smaller screens */
+    }
+}
